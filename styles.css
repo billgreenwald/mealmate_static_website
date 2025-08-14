@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.features, .tutorials {
+    margin-bottom: 4rem;
+}
+
+.features h2, .tutorials h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+.gif-placeholder {
+    background: #e9ecef;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #6c757d;
+    border: 2px dashed #dee2e6;
+}
+
+.tutorial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.tutorial-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tutorial-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.tutorial-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .feature-grid, .tutorial-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .feature-card, .tutorial-item {
+        padding: 1.5rem;
+    }
+}
