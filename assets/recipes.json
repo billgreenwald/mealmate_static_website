@@ -1,0 +1,3856 @@
+{
+  "recipe_1751299129719_amatriciana": {
+    "id": "recipe_1751299129719_amatriciana",
+    "name": "Amatriciana",
+    "requiredIngredients": [
+      {
+        "name": "pancetta",
+        "quantity": 12,
+        "unit": "oz"
+      },
+      {
+        "name": "pasta",
+        "quantity": 1,
+        "unit": "box"
+      },
+      {
+        "name": "marsala wine",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "crushed tomatoes",
+        "quantity": 32,
+        "unit": "oz"
+      },
+      {
+        "name": "tomato sauce",
+        "quantity": 16,
+        "unit": "oz"
+      },
+      {
+        "name": "Red pepper flakes"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299129730_apple_cider_glazed_pork_chop": {
+    "id": "recipe_1751299129730_apple_cider_glazed_pork_chop",
+    "name": "Apple Cider Glazed Pork Chop",
+    "requiredIngredients": [
+      {
+        "name": "bone in pork chops",
+        "quantity": 4
+      },
+      {
+        "name": "butter",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "thyme",
+        "quantity": 5,
+        "unit": "sprig"
+      },
+      {
+        "name": "cider vinegar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "apple cider",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "brown sugar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon"
+      },
+      {
+        "name": "cloves"
+      },
+      {
+        "name": "green apple",
+        "quantity": 1
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129794_broccoli",
+      "recipe_1751299129799_brussel_sprouts",
+      "recipe_1751299129836_butternut_squash_soup",
+      "recipe_1751299129895_chicken_caesar_salad",
+      "recipe_1751299129928_corn",
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299129940_delicata_squash_chips",
+      "recipe_1751299129938_cumin_roasted_cauliflower_and_dates_with_tahini_and_pine_nuts",
+      "recipe_1751299130024_orange_ginger_fizz",
+      "recipe_1751299130075_side_salad",
+      "recipe_1751299130085_sweet_potatoes"
+    ],
+    "source": "The Food Lab Pg 355"
+  },
+  "recipe_1751299129739_asian_style_tofu_over_ramen": {
+    "id": "recipe_1751299129739_asian_style_tofu_over_ramen",
+    "name": "Asian Style Tofu Over Ramen",
+    "requiredIngredients": [
+      {
+        "name": "extra firm tofu",
+        "quantity": 1,
+        "unit": "box"
+      },
+      {
+        "name": "Brussel sprouts"
+      },
+      {
+        "name": "Mushrooms"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "ramen noodles",
+        "quantity": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "Maple syrup",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Rice vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "Sesame oil"
+      },
+      {
+        "name": "Avocado oil"
+      },
+      {
+        "name": "Red pepper flakes"
+      },
+      {
+        "name": "Ginger powder"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129743_asparagus": {
+    "id": "recipe_1751299129743_asparagus",
+    "name": "Asparagus",
+    "requiredIngredients": [
+      {
+        "name": "Asparagus",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "Olive oil"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "Lemon"
+      },
+      {
+        "name": "Paprika"
+      },
+      {
+        "name": "Garlic"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129751_bbq_chicken_kabobs": {
+    "id": "recipe_1751299129751_bbq_chicken_kabobs",
+    "name": "BBQ Chicken Kabobs",
+    "requiredIngredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "rosemary",
+        "quantity": 1,
+        "unit": "sprig"
+      },
+      {
+        "name": "thyme",
+        "quantity": 3,
+        "unit": "sprig"
+      },
+      {
+        "name": "butter",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 0.25,
+        "unit": "lb"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "pineapple"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129928_corn"
+    ]
+  },
+  "recipe_1751299129760_bbq_chicken": {
+    "id": "recipe_1751299129760_bbq_chicken",
+    "name": "BBQ Chicken",
+    "requiredIngredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "BBQ sauce"
+      },
+      {
+        "name": "brown sugar"
+      },
+      {
+        "name": "paprika"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "onion powder"
+      },
+      {
+        "name": "garlic powder"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299129883_cheesy_potatoes",
+      "recipe_1751299129799_brussel_sprouts"
+    ]
+  },
+  "recipe_1751299129769_bbq_ribs": {
+    "id": "recipe_1751299129769_bbq_ribs",
+    "name": "BBQ Ribs",
+    "requiredIngredients": [
+      {
+        "name": "baby back ribs",
+        "quantity": 1,
+        "unit": "rack"
+      },
+      {
+        "name": "BBQ sauce"
+      },
+      {
+        "name": "brown sugar"
+      },
+      {
+        "name": "paprika"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129743_asparagus",
+      "recipe_1751299129794_broccoli",
+      "recipe_1751299129799_brussel_sprouts",
+      "recipe_1751299129895_chicken_caesar_salad",
+      "recipe_1751299129928_corn",
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299129775_bbq_steak_kabobs": {
+    "id": "recipe_1751299129775_bbq_steak_kabobs",
+    "name": "BBQ Steak Kabobs",
+    "requiredIngredients": [
+      {
+        "name": "steak",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "BBQ Sauce"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 0.25,
+        "unit": "lb"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "pineapple"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129928_corn"
+    ]
+  },
+  "recipe_1751299129780_banana_chocolate_chip_muffins": {
+    "id": "recipe_1751299129780_banana_chocolate_chip_muffins",
+    "name": "Banana Chocolate Chip Muffins",
+    "requiredIngredients": [
+      {
+        "name": "bananas",
+        "quantity": 3
+      },
+      {
+        "name": "avocado oil",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "quantity": 1
+      },
+      {
+        "name": "milk",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "all purpose flour",
+        "quantity": 1.75,
+        "unit": "cup"
+      },
+      {
+        "name": "baking powder",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chocolate chips",
+        "quantity": 0.75,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Our cookbook Pg 1"
+  },
+  "recipe_1751299129784_brats": {
+    "id": "recipe_1751299129784_brats",
+    "name": "Brats",
+    "requiredIngredients": [
+      {
+        "name": "Brats"
+      },
+      {
+        "name": "Hotdog buns"
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "Ketchup"
+      },
+      {
+        "name": "Mustard"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129788_broccoli_sauce_pasta": {
+    "id": "recipe_1751299129788_broccoli_sauce_pasta",
+    "name": "Broccoli Sauce Pasta",
+    "requiredIngredients": [
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "Olive oil"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "Garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "Parmesan"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 0.5
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Pasta Everyday Pg.281"
+  },
+  "recipe_1751299129790_broccoli_with_garlic__hazelnut_and_coriander": {
+    "id": "recipe_1751299129790_broccoli_with_garlic__hazelnut_and_coriander",
+    "name": "Broccoli with garlic, hazelnut and coriander",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.160"
+  },
+  "recipe_1751299129794_broccoli": {
+    "id": "recipe_1751299129794_broccoli",
+    "name": "Broccoli",
+    "requiredIngredients": [
+      {
+        "name": "broccoli",
+        "quantity": 0.5,
+        "unit": "lb"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "Lemon"
+      },
+      {
+        "name": "Garlic"
+      },
+      {
+        "name": "Butter"
+      },
+      {
+        "name": "Soy sauce"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129799_brussel_sprouts": {
+    "id": "recipe_1751299129799_brussel_sprouts",
+    "name": "Brussel Sprouts",
+    "requiredIngredients": [
+      {
+        "name": "brussel sprouts",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "Parmesan cheese"
+      },
+      {
+        "name": "Balsamic vinegar"
+      },
+      {
+        "name": "Olive oil"
+      },
+      {
+        "name": "Garlic powder"
+      },
+      {
+        "name": "Onion powder"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129807_buddha_bowls": {
+    "id": "recipe_1751299129807_buddha_bowls",
+    "name": "Buddha Bowls",
+    "requiredIngredients": [
+      {
+        "name": "Israeli Couscous",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "portobello mushrooms",
+        "quantity": 2
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1
+      },
+      {
+        "name": "tomatoes"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "tahini"
+      },
+      {
+        "name": "hummus"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "japanese sweet potato",
+        "quantity": 1
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "zucchini",
+        "quantity": 1
+      },
+      {
+        "name": "broccolini"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129810_burgers": {
+    "id": "recipe_1751299129810_burgers",
+    "name": "Burgers",
+    "requiredIngredients": [
+      {
+        "name": "Ground Beef"
+      },
+      {
+        "name": "Burger buns"
+      },
+      {
+        "name": "lettuce",
+        "unit": "head",
+        "quantity": 1
+      },
+      {
+        "name": "big tomato",
+        "quantity": 1
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "Ketchup"
+      },
+      {
+        "name": "Mustard"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": []
+  },
+  "recipe_1751299129817_burritos": {
+    "id": "recipe_1751299129817_burritos",
+    "name": "Burritos",
+    "requiredIngredients": [
+      {
+        "name": "tortillas"
+      },
+      {
+        "name": "french fries"
+      },
+      {
+        "name": "sour cream"
+      },
+      {
+        "name": "steak",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "salsa"
+      },
+      {
+        "name": "avocado"
+      },
+      {
+        "name": "rice"
+      },
+      {
+        "name": "black beans",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "cheddar cheese"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "refried beans",
+        "quantity": 1,
+        "unit": "can"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129824_buttermilk_waffles": {
+    "id": "recipe_1751299129824_buttermilk_waffles",
+    "name": "Buttermilk Waffles",
+    "requiredIngredients": [
+      {
+        "name": "all purpose flour",
+        "quantity": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "sugar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baking powder",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking soda",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "low fat buttermilk",
+        "quantity": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "quantity": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Our Cookbook Pg 2"
+  },
+  "recipe_1751299129830_butternut_squash_with_yogurt_and_pistachios": {
+    "id": "recipe_1751299129830_butternut_squash_with_yogurt_and_pistachios",
+    "name": "Butternut Squash with Yogurt and Pistachios",
+    "requiredIngredients": [
+      {
+        "name": "butternut squash",
+        "quantity": 1
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "butter",
+        "quantity": 6,
+        "unit": "tbsp"
+      },
+      {
+        "name": "raw pistachios",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon"
+      },
+      {
+        "name": "red pepper flakes"
+      },
+      {
+        "name": "greek yogurt",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy Pg 148"
+  },
+  "recipe_1751299129836_butternut_squash_soup": {
+    "id": "recipe_1751299129836_butternut_squash_soup",
+    "name": "Butternut squash soup",
+    "requiredIngredients": [
+      {
+        "name": "butter",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "celery",
+        "quantity": 1,
+        "unit": "stalk"
+      },
+      {
+        "name": "yukon gold potatoes",
+        "quantity": 3
+      },
+      {
+        "name": "butternut squash",
+        "quantity": 1
+      },
+      {
+        "name": "chicken stock",
+        "quantity": 32,
+        "unit": "oz"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": [],
+    "source": "Our cookbook Pg 28"
+  },
+  "recipe_1751299129841_caesar_dressing": {
+    "id": "recipe_1751299129841_caesar_dressing",
+    "name": "Caesar Dressing",
+    "requiredIngredients": [
+      {
+        "name": "eggs",
+        "quantity": 1
+      },
+      {
+        "name": "red wine vinegar",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dijon mustard",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "anchovies",
+        "quantity": 2
+      },
+      {
+        "name": "garlic",
+        "quantity": 4,
+        "unit": "clove"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "parmesan cheese"
+      },
+      {
+        "name": "olive oil"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129863_charcuterie_": {
+    "id": "recipe_1751299129863_charcuterie_",
+    "name": "Charcuterie ",
+    "requiredIngredients": [
+      {
+        "name": "bread",
+        "quantity": 1,
+        "unit": "loaf"
+      },
+      {
+        "name": "Olive oil"
+      },
+      {
+        "name": "Balsamic vinegar"
+      },
+      {
+        "name": "Cheese wedges"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "Salami"
+      },
+      {
+        "name": "Strawberries"
+      },
+      {
+        "name": "Blueberries"
+      },
+      {
+        "name": "Prosciutto"
+      },
+      {
+        "name": "Tangerines"
+      },
+      {
+        "name": "Grapes"
+      },
+      {
+        "name": "Cherries"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129836_butternut_squash_soup"
+    ]
+  },
+  "recipe_1751299129881_charred_corn_and_scallions_with_tomatillo": {
+    "id": "recipe_1751299129881_charred_corn_and_scallions_with_tomatillo",
+    "name": "Charred Corn and Scallions with Tomatillo",
+    "requiredIngredients": [
+      {
+        "name": "scallions",
+        "quantity": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "corn",
+        "quantity": 6,
+        "unit": "ear"
+      },
+      {
+        "name": "avocado oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "limes",
+        "quantity": 2
+      },
+      {
+        "name": "tomatillos",
+        "quantity": 4
+      },
+      {
+        "name": "cilantro",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado",
+        "quantity": 2
+      },
+      {
+        "name": "olive oil"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": [],
+    "source": "Nothing Fancy Pg. 113"
+  },
+  "recipe_1751299129883_cheesy_potatoes": {
+    "id": "recipe_1751299129883_cheesy_potatoes",
+    "name": "Cheesy Potatoes",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129895_chicken_caesar_salad": {
+    "id": "recipe_1751299129895_chicken_caesar_salad",
+    "name": "Chicken Caesar Salad",
+    "requiredIngredients": [
+      {
+        "name": "Chicken Thighs",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "lettuce",
+        "quantity": 1,
+        "unit": "head"
+      },
+      {
+        "name": "bread",
+        "quantity": 3,
+        "unit": "slices"
+      },
+      {
+        "name": "parmesan cheese"
+      },
+      {
+        "name": "olive oil"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "tomatoes"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1
+      },
+      {
+        "name": "dried cranberries"
+      },
+      {
+        "name": "chic peas",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 2
+      }
+    ],
+    "requiredRecipes": [
+      "recipe_1751299129841_caesar_dressing"
+    ],
+    "suggestedSides": [],
+    "updatedAt": "2025-07-04T04:12:57.317Z"
+  },
+  "recipe_1751299129900_chicken_soup_dunk": {
+    "id": "recipe_1751299129900_chicken_soup_dunk",
+    "name": "Chicken Soup Dunk",
+    "requiredIngredients": [
+      {
+        "name": "whole chicken",
+        "quantity": 1
+      },
+      {
+        "name": "chicken stock",
+        "quantity": 8,
+        "unit": "cup"
+      },
+      {
+        "name": "carrots",
+        "quantity": 5
+      },
+      {
+        "name": "leek",
+        "quantity": 4
+      },
+      {
+        "name": "celery",
+        "quantity": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "garlic",
+        "quantity": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "thyme",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "bay leaf",
+        "quantity": 1
+      },
+      {
+        "name": "pasta",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tarragon",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "parsley",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "bread",
+        "quantity": 6,
+        "unit": "slices"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Email from mom"
+  },
+  "recipe_1751299129905_chicken_tostadas_salsa_verde": {
+    "id": "recipe_1751299129905_chicken_tostadas_salsa_verde",
+    "name": "Chicken Tostadas Salsa Verde",
+    "requiredIngredients": [
+      {
+        "name": "tortillas",
+        "quantity": 4
+      },
+      {
+        "name": "shredded cheese",
+        "quantity": 3,
+        "unit": "oz"
+      },
+      {
+        "name": "chicken thighs",
+        "quantity": 2.5,
+        "unit": "cups"
+      },
+      {
+        "name": "Salsa"
+      },
+      {
+        "name": "cilantro",
+        "quantity": 2.25,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lettuce"
+      },
+      {
+        "name": "Tomatoes"
+      },
+      {
+        "name": "Onion"
+      },
+      {
+        "name": "Sour cream"
+      },
+      {
+        "name": "Avocado"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "image": "/home/bill/yg_pantry/assets/cookbook/Chicken Tostadas Salsa Verde.jpg",
+    "source": "Great Food Fast Pg. 211"
+  },
+  "recipe_1751299129914_cilantro_lime_dressing": {
+    "id": "recipe_1751299129914_cilantro_lime_dressing",
+    "name": "Cilantro Lime Dressing",
+    "requiredIngredients": [
+      {
+        "name": "greek yogurt"
+      },
+      {
+        "name": "cilantro",
+        "quantity": 0.5,
+        "unit": "bunch"
+      },
+      {
+        "name": "limes",
+        "quantity": 2
+      },
+      {
+        "name": "honey",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "unit": "clove"
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "salt"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129923_cinnamon_rolls": {
+    "id": "recipe_1751299129923_cinnamon_rolls",
+    "name": "Cinnamon Rolls",
+    "requiredIngredients": [
+      {
+        "name": "milk",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "active dry yeast",
+        "quantity": 1.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "eggs",
+        "quantity": 3
+      },
+      {
+        "name": "flour",
+        "quantity": 4.5,
+        "unit": "cups"
+      },
+      {
+        "name": "cornstarch",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "quantity": 16,
+        "unit": "tbsp"
+      },
+      {
+        "name": "brown sugar",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "powdered sugar",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cream cheese",
+        "quantity": 4,
+        "unit": "oz"
+      },
+      {
+        "name": "vanilla",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Paper in back of our cookbook"
+  },
+  "recipe_1751299129924_citrus_cucumber_with_red_onion_and_sesame": {
+    "id": "recipe_1751299129924_citrus_cucumber_with_red_onion_and_sesame",
+    "name": "Citrus cucumber with red onion and sesame",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.96"
+  },
+  "recipe_1751299129927_corn_salsa_salad": {
+    "id": "recipe_1751299129927_corn_salsa_salad",
+    "name": "Corn Salsa-Salad",
+    "requiredIngredients": [
+      {
+        "name": "corn",
+        "quantity": 2,
+        "unit": "ear"
+      },
+      {
+        "name": "avocado",
+        "quantity": 2
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": 0.5,
+        "unit": "basket"
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "unit": "slice"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "red wine vinegar",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": []
+  },
+  "recipe_1751299129928_corn": {
+    "id": "recipe_1751299129928_corn",
+    "name": "Corn",
+    "requiredIngredients": [
+      {
+        "name": "Corn"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129929_creamy_sesame_turmeric": {
+    "id": "recipe_1751299129929_creamy_sesame_turmeric",
+    "name": "Creamy Sesame Turmeric",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.26"
+  },
+  "recipe_1751299129933_crispy_potatoes": {
+    "id": "recipe_1751299129933_crispy_potatoes",
+    "name": "Crispy potatoes",
+    "requiredIngredients": [
+      {
+        "name": "Yukon Gold Potatoes",
+        "quantity": 3,
+        "unit": "lbs"
+      },
+      {
+        "name": "garlic",
+        "quantity": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 0.375,
+        "unit": "cup"
+      },
+      {
+        "name": "Rosemary"
+      },
+      {
+        "name": "Parsley"
+      },
+      {
+        "name": "Baking powder"
+      },
+      {
+        "name": "Salt"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": [],
+    "source": "Our Cookbook Pg 27"
+  },
+  "recipe_1751299129934_crushed_baby_potatoes_with_herbs": {
+    "id": "recipe_1751299129934_crushed_baby_potatoes_with_herbs",
+    "name": "Crushed baby potatoes with herbs",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.135"
+  },
+  "recipe_1751299129938_cumin_roasted_cauliflower_and_dates_with_tahini_and_pine_nuts": {
+    "id": "recipe_1751299129938_cumin_roasted_cauliflower_and_dates_with_tahini_and_pine_nuts",
+    "name": "Cumin Roasted Cauliflower and Dates with Tahini and Pine Nuts",
+    "requiredIngredients": [
+      {
+        "name": "cauliflower",
+        "quantity": 1,
+        "unit": "head"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "dates",
+        "quantity": 6
+      },
+      {
+        "name": "tahini",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pine nuts",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "scallions",
+        "quantity": 2
+      },
+      {
+        "name": "cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "sherry vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Dining In Pg.51"
+  },
+  "recipe_1751299129940_delicata_squash_chips": {
+    "id": "recipe_1751299129940_delicata_squash_chips",
+    "name": "Delicata squash chips",
+    "requiredIngredients": [
+      {
+        "name": "delicata squash",
+        "quantity": 1
+      },
+      {
+        "name": "olive oil",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "parmesan cheese"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Chrissy Tegan All Together Pg 82"
+  },
+  "recipe_1751299129945_fajitas": {
+    "id": "recipe_1751299129945_fajitas",
+    "name": "Fajitas",
+    "requiredIngredients": [
+      {
+        "name": "soy sauce",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "limes",
+        "quantity": 7
+      },
+      {
+        "name": "avocado oil",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "brown sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "pepper",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "chili powder",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "steak",
+        "quantity": 2,
+        "unit": "lb"
+      },
+      {
+        "name": "red bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "yellow bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "green bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "tortillas"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      "recipe_1751299130041_pico_de_gallo",
+      "recipe_1751299129973_guacamole"
+    ],
+    "suggestedSides": [],
+    "source": "The Food Lab Pg 350",
+    "updatedAt": "2025-07-04T04:12:57.318Z"
+  },
+  "recipe_1751299129946_foaccia": {
+    "id": "recipe_1751299129946_foaccia",
+    "name": "Foaccia",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.70"
+  },
+  "recipe_1751299129948_fresh_pasta": {
+    "id": "recipe_1751299129948_fresh_pasta",
+    "name": "Fresh pasta",
+    "requiredIngredients": [
+      {
+        "name": "double zero flour",
+        "quantity": 2.5,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "eggs",
+        "quantity": 3
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Our cookbook Pg 54"
+  },
+  "recipe_1751299129952_fried_chicken": {
+    "id": "recipe_1751299129952_fried_chicken",
+    "name": "Fried Chicken",
+    "requiredIngredients": [
+      {
+        "name": "Paprika"
+      },
+      {
+        "name": "Black pepper"
+      },
+      {
+        "name": "Garlic powder"
+      },
+      {
+        "name": "Dried Oregano"
+      },
+      {
+        "name": "Cayenne"
+      },
+      {
+        "name": "buttermilk",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "egg",
+        "quantity": 1
+      },
+      {
+        "name": "chicken thighs",
+        "quantity": 2.5,
+        "unit": "lbs"
+      },
+      {
+        "name": "all purpose flour",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cornstarch",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "baking powder",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "frying oil",
+        "quantity": 1,
+        "unit": "container"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129928_corn",
+      "recipe_1751299129933_crispy_potatoes"
+    ],
+    "source": "Our Cookbook Pg.36"
+  },
+  "recipe_1751299129955_garlic_marinated_chicken_with_potatoes": {
+    "id": "recipe_1751299129955_garlic_marinated_chicken_with_potatoes",
+    "name": "Garlic marinated chicken with potatoes",
+    "requiredIngredients": [
+      {
+        "name": "yukon gold potatoes",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "garlic",
+        "quantity": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "white wine vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "thyme",
+        "quantity": 7,
+        "unit": "sprigs"
+      },
+      {
+        "name": "chicken thighs",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "asparagus",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "butter",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      "recipe_1751299129957_garlic_vinaigrette"
+    ],
+    "suggestedSides": [],
+    "source": "Great Food Fast Pg 116",
+    "updatedAt": "2025-07-04T04:12:57.318Z"
+  },
+  "recipe_1751299129957_garlic_vinaigrette": {
+    "id": "recipe_1751299129957_garlic_vinaigrette",
+    "name": "Garlic vinaigrette",
+    "requiredIngredients": [
+      {
+        "name": "white wine vinegar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "dijon mustard",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic",
+        "quantity": 0.5,
+        "unit": "clove"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Great Food Fast Pg 347"
+  },
+  "recipe_1751299129960_granola_bars": {
+    "id": "recipe_1751299129960_granola_bars",
+    "name": "Granola Bars",
+    "requiredIngredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 2.5,
+        "unit": "cup"
+      },
+      {
+        "name": "nuts",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "brown sugar",
+        "quantity": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "chocolate chips"
+      },
+      {
+        "name": "dried cranberries"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Our cookbook Pg 101"
+  },
+  "recipe_1751299129961_grilled_cheese": {
+    "id": "recipe_1751299129961_grilled_cheese",
+    "name": "Grilled Cheese",
+    "requiredIngredients": [
+      {
+        "name": "bread",
+        "quantity": 1,
+        "unit": "loaf"
+      },
+      {
+        "name": "cheddar cheese"
+      },
+      {
+        "name": "butter"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299130091_tomato_bisque",
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299129967_grilled_shrimp_with_tomatoes_and_lime": {
+    "id": "recipe_1751299129967_grilled_shrimp_with_tomatoes_and_lime",
+    "name": "Grilled shrimp with tomatoes and lime",
+    "requiredIngredients": [
+      {
+        "name": "tomatoes",
+        "quantity": 2
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "limes",
+        "quantity": 4
+      },
+      {
+        "name": "shrimp",
+        "quantity": 2.5,
+        "unit": "lb"
+      },
+      {
+        "name": "butter",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "red pepper flakes"
+      },
+      {
+        "name": "cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "tortillas"
+      },
+      {
+        "name": "rice"
+      },
+      {
+        "name": "bread"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129927_corn_salsa_salad",
+      "recipe_1751299129881_charred_corn_and_scallions_with_tomatillo",
+      "recipe_1751299130063_shishitos_in_yuzu_kosho"
+    ],
+    "source": "Nothing Fancy Pg. 232"
+  },
+  "recipe_1751299129970_guacamole_greens_salad": {
+    "id": "recipe_1751299129970_guacamole_greens_salad",
+    "name": "Guacamole Greens Salad",
+    "requiredIngredients": [
+      {
+        "name": "Lettuce",
+        "quantity": 1,
+        "unit": "head"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 1
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "slice"
+      },
+      {
+        "name": "Avocado",
+        "quantity": 1
+      },
+      {
+        "name": "Chicken Thighs",
+        "quantity": 1,
+        "unit": "lbs"
+      },
+      {
+        "name": "Corn Chips"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      "recipe_1751299129914_cilantro_lime_dressing"
+    ],
+    "suggestedSides": [],
+    "updatedAt": "2025-07-04T04:12:57.318Z"
+  },
+  "recipe_1751299129973_guacamole": {
+    "id": "recipe_1751299129973_guacamole",
+    "name": "Guacamole",
+    "requiredIngredients": [
+      {
+        "name": "avocado",
+        "quantity": 4
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": 0.5,
+        "unit": "basket"
+      },
+      {
+        "name": "onion",
+        "quantity": 2,
+        "unit": "slice"
+      },
+      {
+        "name": "limes",
+        "quantity": 1
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "unit": "clove"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "jalapeno",
+        "quantity": 1
+      },
+      {
+        "name": "paprika"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299129978_healthy_muffins": {
+    "id": "recipe_1751299129978_healthy_muffins",
+    "name": "Healthy muffins",
+    "requiredIngredients": [
+      {
+        "name": "whole wheat flour",
+        "quantity": 254,
+        "unit": "grams"
+      },
+      {
+        "name": "baking soda",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "ginger powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "carrots",
+        "quantity": 2
+      },
+      {
+        "name": "apples",
+        "quantity": 2
+      },
+      {
+        "name": "golden raisins",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "dried cranberries",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "shredded coconut",
+        "quantity": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "flaxseed",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "quantity": 3
+      },
+      {
+        "name": "bananas",
+        "quantity": 2
+      },
+      {
+        "name": "orange juice",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "chocolate chips"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "almonds",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "walnuts",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "maple syrup",
+        "quantity": 0.75,
+        "unit": "cup"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Amanda's phone"
+  },
+  "recipe_1751299129985_honey_garlic_chicken": {
+    "id": "recipe_1751299129985_honey_garlic_chicken",
+    "name": "Honey Garlic Chicken",
+    "requiredIngredients": [
+      {
+        "name": "bone in chicken thighs",
+        "quantity": 6
+      },
+      {
+        "name": "salt",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "quantity": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "honey",
+        "quantity": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "rice vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pepper",
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129794_broccoli",
+      "recipe_1751299129799_brussel_sprouts",
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299130075_side_salad"
+    ],
+    "source": "https://cafedelites.com/easy-honey-garlic-chicken/"
+  },
+  "recipe_1751299129990_indian_chicken_kabobs": {
+    "id": "recipe_1751299129990_indian_chicken_kabobs",
+    "name": "Indian Chicken Kabobs",
+    "requiredIngredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "garlic",
+        "quantity": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "fresh ginger"
+      },
+      {
+        "name": "cumin",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "chili powder",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "greek yogurt",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "limes",
+        "quantity": 1
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Our Cookbook Pg 52"
+  },
+  "recipe_1751299129995_italian_lentil_sausage_soup": {
+    "id": "recipe_1751299129995_italian_lentil_sausage_soup",
+    "name": "Italian Lentil Sausage Soup",
+    "requiredIngredients": [
+      {
+        "name": "italian sausage",
+        "quantity": 2
+      },
+      {
+        "name": "leek",
+        "quantity": 1
+      },
+      {
+        "name": "garlic",
+        "quantity": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "thyme"
+      },
+      {
+        "name": "rosemary"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 1
+      },
+      {
+        "name": "tomato paste",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "navy beans",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "lentils",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pesto",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pasta",
+        "quantity": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "red wine vinegar"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "spinach"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "16G Dragonflies Year Two Memory Book, Last Pgs"
+  },
+  "recipe_1751299129996_lasagna": {
+    "id": "recipe_1751299129996_lasagna",
+    "name": "Lasagna",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130000_lemon_garlic_asparagus": {
+    "id": "recipe_1751299130000_lemon_garlic_asparagus",
+    "name": "Lemon Garlic Asparagus",
+    "requiredIngredients": [
+      {
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "red pepper flakes",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "quantity": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "lemon zest"
+      },
+      {
+        "name": "asparagus",
+        "quantity": 1,
+        "unit": "lb"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Moon Cycle Cookbook Pg 149"
+  },
+  "recipe_1751299130000_little_gem_salad_with_garlic_and_pistachio": {
+    "id": "recipe_1751299130000_little_gem_salad_with_garlic_and_pistachio",
+    "name": "Little gem salad with garlic and pistachio",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.88"
+  },
+  "recipe_1751299130006_mango_fried_rice_bowl": {
+    "id": "recipe_1751299130006_mango_fried_rice_bowl",
+    "name": "Mango Fried Rice Bowl",
+    "requiredIngredients": [
+      {
+        "name": "brown rice",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "avocado oil"
+      },
+      {
+        "name": "mangoes",
+        "quantity": 2
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "scallions",
+        "quantity": 4
+      },
+      {
+        "name": "red pepper flakes",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "eggs",
+        "quantity": 4
+      },
+      {
+        "name": "sesame seeds",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Moon Cycle Cookbook Pg 186"
+  },
+  "recipe_1751299130010_maple_apple_breakfast_crisp": {
+    "id": "recipe_1751299130010_maple_apple_breakfast_crisp",
+    "name": "Maple Apple Breakfast Crisp",
+    "requiredIngredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 1.25,
+        "unit": "cup"
+      },
+      {
+        "name": "coconut oil",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "maple syrup",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pecans",
+        "quantity": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "sunflower seeds",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon",
+        "quantity": 0.5
+      },
+      {
+        "name": "apples",
+        "quantity": 4
+      },
+      {
+        "name": "vanilla extract",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "nutmeg",
+        "quantity": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Moon Cycle Cookbook Pg 176"
+  },
+  "recipe_1751299130013_maple_mustard_glazed_pork_chop": {
+    "id": "recipe_1751299130013_maple_mustard_glazed_pork_chop",
+    "name": "Maple Mustard Glazed Pork Chop",
+    "requiredIngredients": [
+      {
+        "name": "bone in pork chops",
+        "quantity": 4
+      },
+      {
+        "name": "butter",
+        "quantity": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "thyme",
+        "quantity": 5,
+        "unit": "sprig"
+      },
+      {
+        "name": "maple syrup",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "molasses",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "bourbon",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dijon mustard",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129743_asparagus",
+      "recipe_1751299129794_broccoli",
+      "recipe_1751299129799_brussel_sprouts",
+      "recipe_1751299129836_butternut_squash_soup",
+      "recipe_1751299129830_butternut_squash_with_yogurt_and_pistachios",
+      "recipe_1751299129895_chicken_caesar_salad",
+      "recipe_1751299129883_cheesy_potatoes",
+      "recipe_1751299129928_corn",
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299129938_cumin_roasted_cauliflower_and_dates_with_tahini_and_pine_nuts",
+      "recipe_1751299129940_delicata_squash_chips",
+      "recipe_1751299130000_lemon_garlic_asparagus",
+      "recipe_1751299130075_side_salad",
+      "recipe_1751299130084_sticky_carrots",
+      "recipe_1751299130085_sweet_potatoes"
+    ],
+    "source": "The Food Lab Pg 355"
+  },
+  "recipe_1751299130015_melon_ricotta_salata": {
+    "id": "recipe_1751299130015_melon_ricotta_salata",
+    "name": "Melon ricotta salata",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.114"
+  },
+  "recipe_1751299130020_minestrone_soup": {
+    "id": "recipe_1751299130020_minestrone_soup",
+    "name": "Minestrone Soup",
+    "requiredIngredients": [
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "carrots",
+        "quantity": 2
+      },
+      {
+        "name": "celery",
+        "quantity": 2,
+        "unit": "ribs"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 2
+      },
+      {
+        "name": "kidney beans",
+        "quantity": 15,
+        "unit": "oz"
+      },
+      {
+        "name": "bay leaf",
+        "quantity": 1
+      },
+      {
+        "name": "parsley",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "whole tomatoes",
+        "quantity": 28,
+        "unit": "oz"
+      },
+      {
+        "name": "frozen baby lima beans",
+        "quantity": 10,
+        "unit": "oz"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 2.5,
+        "unit": "cups"
+      },
+      {
+        "name": "kale",
+        "quantity": 5,
+        "unit": "leaves"
+      },
+      {
+        "name": "red wine",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "macaroni",
+        "quantity": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "parmesan"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Not Your Mother's Slow Cooker Pg.63"
+  },
+  "recipe_1751299130023_one_pot_chicken_with_dates_and_caramelized_lemon": {
+    "id": "recipe_1751299130023_one_pot_chicken_with_dates_and_caramelized_lemon",
+    "name": "One-Pot Chicken with Dates and Caramelized Lemon",
+    "requiredIngredients": [
+      {
+        "name": "bone in chicken thighs",
+        "quantity": 6
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "shallots",
+        "quantity": 2
+      },
+      {
+        "name": "dates",
+        "quantity": 6
+      },
+      {
+        "name": "thyme",
+        "quantity": 4,
+        "unit": "sprigs"
+      },
+      {
+        "name": "oregano",
+        "quantity": 4,
+        "unit": "sprigs"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129938_cumin_roasted_cauliflower_and_dates_with_tahini_and_pine_nuts"
+    ],
+    "image": "/home/bill/yg_pantry/assets/cookbook/One-Pot Chicken with Dates and Caramelized Lemon.jpg",
+    "source": "Nothing Fancy Pg.194"
+  },
+  "recipe_1751299130024_orange_ginger_fizz": {
+    "id": "recipe_1751299130024_orange_ginger_fizz",
+    "name": "Orange ginger fizz",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130028_paella": {
+    "id": "recipe_1751299130028_paella",
+    "name": "Paella",
+    "requiredIngredients": [
+      {
+        "name": "low-sodium chicken broth",
+        "quantity": 7,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chorizo",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "chicken thighs",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "garlic",
+        "quantity": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "tomato paste",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "whole peeled tomatoes",
+        "quantity": 14,
+        "unit": "oz"
+      },
+      {
+        "name": "paprika",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "thyme",
+        "quantity": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "saffron",
+        "quantity": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "name": "calsparra rice",
+        "quantity": 2.75,
+        "unit": "cup"
+      },
+      {
+        "name": "shrimp",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Chrissy Tegan All Together Pg 202"
+  },
+  "recipe_1751299130031_pasta_bolognese": {
+    "id": "recipe_1751299130031_pasta_bolognese",
+    "name": "Pasta Bolognese",
+    "requiredIngredients": [
+      {
+        "name": "pasta",
+        "quantity": 1,
+        "unit": "box"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "ground turkey",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "celery",
+        "quantity": 0.5,
+        "unit": "stalk"
+      },
+      {
+        "name": "carrots",
+        "quantity": 1
+      },
+      {
+        "name": "mushrooms"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "vloes"
+      },
+      {
+        "name": "tomato sauce",
+        "quantity": 32,
+        "unit": "oz"
+      },
+      {
+        "name": "maple syrup",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Awakening Fertility Pg 172"
+  },
+  "recipe_1751299130036_pasta_with_tomato_sauce": {
+    "id": "recipe_1751299130036_pasta_with_tomato_sauce",
+    "name": "Pasta with Tomato Sauce",
+    "requiredIngredients": [
+      {
+        "name": "pasta",
+        "quantity": 1,
+        "unit": "box"
+      },
+      {
+        "name": "crushed tomatoes",
+        "quantity": 16,
+        "unit": "oz"
+      },
+      {
+        "name": "tomato sauce",
+        "quantity": 16,
+        "unit": "oz"
+      },
+      {
+        "name": "Red pepper flakes"
+      },
+      {
+        "name": "Basil"
+      },
+      {
+        "name": "Oregano"
+      },
+      {
+        "name": "Thyme"
+      },
+      {
+        "name": "Olive oil"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "ground turkey",
+        "quantity": 1,
+        "unit": "lb"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299130037_pesto_pasta_with_shrimp": {
+    "id": "recipe_1751299130037_pesto_pasta_with_shrimp",
+    "name": "Pesto pasta with shrimp",
+    "requiredIngredients": [
+      {
+        "name": "pasta",
+        "quantity": 1,
+        "unit": "box"
+      },
+      {
+        "name": "shrimp",
+        "quantity": 1,
+        "unit": "lb"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      "recipe_1751299130039_pesto"
+    ],
+    "suggestedSides": [
+      "recipe_1751299130075_side_salad"
+    ],
+    "updatedAt": "2025-07-04T04:12:57.318Z"
+  },
+  "recipe_1751299130039_pesto": {
+    "id": "recipe_1751299130039_pesto",
+    "name": "Pesto",
+    "requiredIngredients": [
+      {
+        "name": "basil",
+        "quantity": 2,
+        "unit": "cup"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "unit": "clove"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "pine nuts",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130041_pico_de_gallo": {
+    "id": "recipe_1751299130041_pico_de_gallo",
+    "name": "Pico De Gallo",
+    "requiredIngredients": [
+      {
+        "name": "tomatoes",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "cilantro",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "limes",
+        "quantity": 1
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "jalapeno",
+        "quantity": 1
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "The Food Lab Pg 351"
+  },
+  "recipe_1751299130043_pineapple_salad": {
+    "id": "recipe_1751299130043_pineapple_salad",
+    "name": "Pineapple Salad",
+    "requiredIngredients": [
+      {
+        "name": "egg",
+        "quantity": 1
+      },
+      {
+        "name": "sugar",
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "flour",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chunked pineapple",
+        "quantity": 1,
+        "unit": "can"
+      },
+      {
+        "name": "mini marshmallows",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "chopped walnuts",
+        "quantity": 0.75,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Recipe Box"
+  },
+  "recipe_1751299130045_pita_bread": {
+    "id": "recipe_1751299130045_pita_bread",
+    "name": "Pita Bread",
+    "requiredIngredients": [
+      {
+        "name": "bread flour",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "yeast",
+        "quantity": 7,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tsp"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Paul Hollywood Bread Pg 91"
+  },
+  "recipe_1751299130046_pizza": {
+    "id": "recipe_1751299130046_pizza",
+    "name": "Pizza",
+    "requiredIngredients": [
+      {
+        "name": "yeast",
+        "quantity": 7,
+        "unit": "grams"
+      },
+      {
+        "name": "double zero flour",
+        "quantity": 500,
+        "unit": "grams"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "pepperoni"
+      },
+      {
+        "name": "mushrooms"
+      },
+      {
+        "name": "pineapple"
+      },
+      {
+        "name": "jalapeno"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Ooni Cooking with Fire Pg 18"
+  },
+  "recipe_1751299130049_portobello_tacos": {
+    "id": "recipe_1751299130049_portobello_tacos",
+    "name": "Portobello Tacos",
+    "requiredIngredients": [
+      {
+        "name": "portobello mushrooms",
+        "quantity": 4
+      },
+      {
+        "name": "vegetable broth",
+        "quantity": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "corn starch",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ancho chili powder",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chili powder",
+        "quantity": 0.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "paprika",
+        "quantity": 0.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic powder",
+        "quantity": 0.5,
+        "unit": "tbsp"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "liquid smoke",
+        "quantity": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Our Cookbook Pg 51"
+  },
+  "recipe_1751299130051_potato_hash": {
+    "id": "recipe_1751299130051_potato_hash",
+    "name": "Potato Hash",
+    "requiredIngredients": [
+      {
+        "name": "yukon gold potatoes",
+        "quantity": 0.75,
+        "unit": "lb"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 0.75,
+        "unit": "lb"
+      },
+      {
+        "name": "corn",
+        "quantity": 1,
+        "unit": "ear"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.25
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "eggs"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130052_pulled_pork_sliders": {
+    "id": "recipe_1751299130052_pulled_pork_sliders",
+    "name": "Pulled pork sliders",
+    "requiredIngredients": [
+      {
+        "name": "pork butt",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "bbq sauce"
+      },
+      {
+        "name": "Slider buns"
+      },
+      {
+        "name": "Cole slaw"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129928_corn",
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299130055_roasted_cornish_hens_with_grapes": {
+    "id": "recipe_1751299130055_roasted_cornish_hens_with_grapes",
+    "name": "Roasted Cornish Hens with Grapes",
+    "requiredIngredients": [
+      {
+        "name": "grapes",
+        "quantity": 1.5,
+        "unit": "lb"
+      },
+      {
+        "name": "shallots",
+        "quantity": 8
+      },
+      {
+        "name": "thyme",
+        "quantity": 6,
+        "unit": "sprigs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cornish game hens",
+        "quantity": 4
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129836_butternut_squash_soup",
+      "recipe_1751299129830_butternut_squash_with_yogurt_and_pistachios"
+    ],
+    "source": "Great Food Fast Pg 198"
+  },
+  "recipe_1751299130056_seeded_parmesan_breadsticks": {
+    "id": "recipe_1751299130056_seeded_parmesan_breadsticks",
+    "name": "Seeded Parmesan Breadsticks",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.66"
+  },
+  "recipe_1751299130060_shaved_brussel_sprout_salad": {
+    "id": "recipe_1751299130060_shaved_brussel_sprout_salad",
+    "name": "Shaved Brussel Sprout Salad",
+    "requiredIngredients": [
+      {
+        "name": "honey",
+        "quantity": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "brussel sprouts",
+        "quantity": 12,
+        "unit": "oz"
+      },
+      {
+        "name": "kale",
+        "quantity": 4,
+        "unit": "leaves"
+      },
+      {
+        "name": "dates",
+        "quantity": 4
+      },
+      {
+        "name": "green apple",
+        "quantity": 0.5
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "shallots",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dijon mustard",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "champagne vinegar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "nuts",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cayenne pepper"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Just Married Pg 77"
+  },
+  "recipe_1751299130063_shishitos_in_yuzu_kosho": {
+    "id": "recipe_1751299130063_shishitos_in_yuzu_kosho",
+    "name": "Shishitos in Yuzu Kosho",
+    "requiredIngredients": [
+      {
+        "name": "shishito peppers",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "avocado oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "yuzu kosho",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "limes",
+        "quantity": 2
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy Pg 64"
+  },
+  "recipe_1751299130069_shrimp_tacos": {
+    "id": "recipe_1751299130069_shrimp_tacos",
+    "name": "Shrimp Tacos",
+    "requiredIngredients": [
+      {
+        "name": "shrimp",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "tortillas"
+      },
+      {
+        "name": "tomatoes"
+      },
+      {
+        "name": "onion"
+      },
+      {
+        "name": "avocado"
+      },
+      {
+        "name": "spicy mayo"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "salsa"
+      },
+      {
+        "name": "lettuce"
+      },
+      {
+        "name": "limes"
+      },
+      {
+        "name": "cole slaw"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130072_shrimp_and_asparagus_stir_fry": {
+    "id": "recipe_1751299130072_shrimp_and_asparagus_stir_fry",
+    "name": "Shrimp and Asparagus Stir Fry",
+    "requiredIngredients": [
+      {
+        "name": "chicken broth",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 2,
+        "unit": "tsbp"
+      },
+      {
+        "name": "brown sugar",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon zest",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "corn starch",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "peanut oil",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "asparagus",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "shrimp",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "salt"
+      },
+      {
+        "name": "pepper"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299129927_corn_salsa_salad"
+    ],
+    "source": "https://www.allrecipes.com/shrimp-and-asparagus-stir-fry-recipe-7370033"
+  },
+  "recipe_1751299130075_side_salad": {
+    "id": "recipe_1751299130075_side_salad",
+    "name": "Side Salad",
+    "requiredIngredients": [
+      {
+        "name": "Lettuce",
+        "quantity": 1,
+        "unit": "head"
+      },
+      {
+        "name": "Tomatoes"
+      },
+      {
+        "name": "Cucumber"
+      },
+      {
+        "name": "Dried Cranberries"
+      },
+      {
+        "name": "Olive oil"
+      },
+      {
+        "name": "Balsamic vinegar"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "Avocado"
+      },
+      {
+        "name": "Golden raisins"
+      },
+      {
+        "name": "Bel pepper"
+      },
+      {
+        "name": "Kale"
+      }
+    ],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": []
+  },
+  "recipe_1751299130080_souvlaki": {
+    "id": "recipe_1751299130080_souvlaki",
+    "name": "Souvlaki",
+    "requiredIngredients": [
+      {
+        "name": "pork",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "chicken thighs",
+        "quantity": 0.5,
+        "unit": "lb"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 1
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic powder"
+      },
+      {
+        "name": "onion powder"
+      },
+      {
+        "name": "thyme"
+      },
+      {
+        "name": "chili sauce"
+      },
+      {
+        "name": "Cucumber"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1
+      },
+      {
+        "name": "hummus"
+      },
+      {
+        "name": "tzatziki"
+      },
+      {
+        "name": "tahini"
+      },
+      {
+        "name": "pickles"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      "recipe_1751299130045_pita_bread"
+    ],
+    "suggestedSides": [],
+    "source": "Paul Hollywood Bread Pg 94",
+    "updatedAt": "2025-07-04T04:12:57.319Z"
+  },
+  "recipe_1751299130083_spaghetti_ala_vodka_with_shrimp": {
+    "id": "recipe_1751299130083_spaghetti_ala_vodka_with_shrimp",
+    "name": "Spaghetti ala vodka with shrimp",
+    "requiredIngredients": [
+      {
+        "name": "pasta",
+        "quantity": 1,
+        "unit": "box"
+      },
+      {
+        "name": "crushed tomatoes",
+        "quantity": 32,
+        "unit": "oz"
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "basil"
+      },
+      {
+        "name": "thyme"
+      },
+      {
+        "name": "oregano"
+      },
+      {
+        "name": "red pepper flakes"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "cream",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "vodka",
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "mushrooms"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130084_steak_and_chicken": {
+    "id": "recipe_1751299130084_steak_and_chicken",
+    "name": "Steak and Chicken",
+    "requiredIngredients": [
+      {
+        "name": "steak",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "chicken breast",
+        "quantity": 0.5,
+        "unit": "lb"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299130024_orange_ginger_fizz",
+      "recipe_1751299129836_butternut_squash_soup",
+      "recipe_1751299130084_sticky_carrots",
+      "recipe_1751299129743_asparagus",
+      "recipe_1751299130075_side_salad",
+      "recipe_1751299130085_sweet_potatoes",
+      "recipe_1751299129799_brussel_sprouts",
+      "recipe_1751299129933_crispy_potatoes",
+      "recipe_1751299129794_broccoli"
+    ]
+  },
+  "recipe_1751299130084_sticky_carrots": {
+    "id": "recipe_1751299130084_sticky_carrots",
+    "name": "Sticky Carrots",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130085_sweet_potatoes": {
+    "id": "recipe_1751299130085_sweet_potatoes",
+    "name": "Sweet potatoes",
+    "requiredIngredients": [
+      {
+        "name": "sweet potatoes",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "Olive oil"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  },
+  "recipe_1751299130086_tangy_roasted_mushrooms": {
+    "id": "recipe_1751299130086_tangy_roasted_mushrooms",
+    "name": "Tangy roasted mushrooms",
+    "requiredIngredients": [],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Nothing Fancy pg.60"
+  },
+  "recipe_1751299130089_three__3__cheese_quiche": {
+    "id": "recipe_1751299130089_three__3__cheese_quiche",
+    "name": "Three (3) Cheese Quiche",
+    "requiredIngredients": [
+      {
+        "name": "eggs",
+        "quantity": 5
+      },
+      {
+        "name": "cream",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic powder"
+      },
+      {
+        "name": "paprika"
+      },
+      {
+        "name": "cheddar cheese",
+        "quantity": 4,
+        "unit": "oz"
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 3,
+        "unit": "oz"
+      },
+      {
+        "name": "chives",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 7
+      },
+      {
+        "name": "bel pepper",
+        "quantity": 0.25
+      },
+      {
+        "name": "onion",
+        "quantity": 0.25
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "Spinach"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [],
+    "source": "Loose Quiche Recipe"
+  },
+  "recipe_1751299130091_tomato_bisque": {
+    "id": "recipe_1751299130091_tomato_bisque",
+    "name": "Tomato Bisque",
+    "requiredIngredients": [
+      {
+        "name": "whole peeled tomatoes",
+        "quantity": 56,
+        "unit": "oz"
+      },
+      {
+        "name": "tomato sauce",
+        "quantity": 14,
+        "unit": "oz"
+      },
+      {
+        "name": "chicken broth",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "basil",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "oregano",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "thyme",
+        "quantity": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "cream",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [
+      []
+    ],
+    "suggestedSides": [],
+    "source": "Our Cookbook Pg 26"
+  },
+  "recipe_1751299130094_tortellini": {
+    "id": "recipe_1751299130094_tortellini",
+    "name": "Tortellini",
+    "requiredIngredients": [
+      {
+        "name": "tortellini",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "tomato sauce",
+        "quantity": 14,
+        "unit": "oz"
+      },
+      {
+        "name": "crushed tomatoes",
+        "quantity": 14,
+        "unit": "oz"
+      },
+      {
+        "name": "red pepper flakes"
+      },
+      {
+        "name": "marsala wine",
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp''"
+      },
+      {
+        "name": "garlic",
+        "quantity": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "thyme"
+      },
+      {
+        "name": "basil"
+      },
+      {
+        "name": "oregano"
+      }
+    ],
+    "optionalIngredients": [],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299130098_veggie_noodles_with_tomato_sauce_and_shrimp": {
+    "id": "recipe_1751299130098_veggie_noodles_with_tomato_sauce_and_shrimp",
+    "name": "Veggie Noodles with tomato sauce and shrimp",
+    "requiredIngredients": [
+      {
+        "name": "crushed tomatoes",
+        "quantity": 32,
+        "unit": "oz"
+      },
+      {
+        "name": "olive oil"
+      },
+      {
+        "name": "basil"
+      },
+      {
+        "name": "thyme"
+      },
+      {
+        "name": "oregano"
+      },
+      {
+        "name": "red pepper flakes"
+      },
+      {
+        "name": "marsala wine",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "spaghetti squash",
+        "quantity": 1
+      },
+      {
+        "name": "zucchini",
+        "quantity": 3
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": [
+      "recipe_1751299130075_side_salad"
+    ]
+  },
+  "recipe_1751299130101_zucchini_boats": {
+    "id": "recipe_1751299130101_zucchini_boats",
+    "name": "Zucchini Boats",
+    "requiredIngredients": [
+      {
+        "name": "zucchini",
+        "quantity": 4
+      },
+      {
+        "name": "ground turkey",
+        "quantity": 1,
+        "unit": "lb"
+      },
+      {
+        "name": "parmesan cheese"
+      },
+      {
+        "name": "crushed tomatoes",
+        "quantity": 32,
+        "unit": "oz"
+      },
+      {
+        "name": "red pepper flakes"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "clove"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.5
+      },
+      {
+        "name": "mushrooms"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "name": "marsala wine",
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "requiredRecipes": [],
+    "suggestedSides": []
+  }
+}

@@ -4,84 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MealMate - Your Ultimate Meal Planning Companion</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>MealMate</h1>
-        <p>Your Ultimate Meal Planning Companion</p>
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <img src="assets/images/icon.png" alt="MealMate" class="nav-logo">
+                    <span class="brand-name">MealMate</span>
+                </div>
+                <div class="nav-actions">
+                    <button class="btn btn-outline">Download</button>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
         <section class="hero">
-            <h2>Simplify Your Meal Planning</h2>
-            <p>Discover how MealMate makes meal planning effortless and enjoyable.</p>
-        </section>
-
-        <section class="features">
-            <h2>App Features</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>Smart Meal Planning</h3>
-                    <div class="gif-placeholder">
-                        <!-- Add your GIF here -->
-                        <p>GIF: Meal planning demo</p>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Simplify Your <span class="text-gradient">Meal Planning</span></h1>
+                    <p class="hero-subtitle">Transform the way you plan, prepare, and enjoy your meals. MealMate makes healthy eating effortless with smart planning tools and personalized recipes.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary">Get Started Free</button>
+                        <button class="btn btn-secondary">Watch Demo</button>
                     </div>
-                    <p>Plan your meals for the week with intelligent suggestions.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">10k+</div>
+                            <div class="stat-label">Active Users</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5k+</div>
+                            <div class="stat-label">Recipes</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">4.8★</div>
+                            <div class="stat-label">App Rating</div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="feature-card">
-                    <h3>Recipe Management</h3>
-                    <div class="gif-placeholder">
-                        <!-- Add your GIF here -->
-                        <p>GIF: Recipe browsing demo</p>
+                <div class="hero-visual">
+                    <div class="app-showcase">
+                        <img src="assets/images/adaptive-icon.png" alt="MealMate App" class="hero-app-icon">
                     </div>
-                    <p>Organize and discover new recipes tailored to your preferences.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>Shopping Lists</h3>
-                    <div class="gif-placeholder">
-                        <!-- Add your GIF here -->
-                        <p>GIF: Shopping list demo</p>
-                    </div>
-                    <p>Auto-generate shopping lists based on your meal plans.</p>
                 </div>
             </div>
         </section>
 
-        <section class="tutorials">
-            <h2>How to Use MealMate</h2>
-            <div class="tutorial-list">
-                <div class="tutorial-item">
-                    <h3>Getting Started</h3>
-                    <div class="gif-placeholder">
-                        <p>GIF: App setup tutorial</p>
+        <section class="features">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need to master meal planning and healthy eating</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-circle green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 11H15M9 15H15M17 21H7C5.89543 21 5 20.1046 5 19V5C5 3.89543 5.89543 3 7 3H12.5858C12.851 3 13.1054 3.10536 13.2929 3.29289L18.7071 8.70711C18.8946 8.89464 19 9.149 19 9.41421V19C19 20.1046 18.1046 21 17 21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
                     </div>
-                    <p>Learn how to set up your profile and preferences.</p>
+                    <h3>Smart Meal Planning</h3>
+                    <p>Plan your meals for the week with intelligent suggestions based on your preferences and dietary needs.</p>
                 </div>
 
-                <div class="tutorial-item">
-                    <h3>Creating Your First Meal Plan</h3>
-                    <div class="gif-placeholder">
-                        <p>GIF: First meal plan tutorial</p>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-circle orange">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
                     </div>
-                    <p>Step-by-step guide to creating your first weekly meal plan.</p>
+                    <h3>Recipe Discovery</h3>
+                    <p>Discover and organize thousands of recipes tailored to your taste preferences and cooking style.</p>
                 </div>
 
-                <div class="tutorial-item">
-                    <h3>Advanced Features</h3>
-                    <div class="gif-placeholder">
-                        <p>GIF: Advanced features tutorial</p>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-circle green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 11L12 14L22 4M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
                     </div>
-                    <p>Explore advanced features like dietary restrictions and nutrition tracking.</p>
+                    <h3>Smart Shopping Lists</h3>
+                    <p>Auto-generate organized shopping lists from your meal plans, with smart ingredient grouping.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Get started with MealMate in three simple steps</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Set Your Preferences</h3>
+                        <p>Tell us about your dietary preferences, cooking skill level, and favorite cuisines.</p>
+                    </div>
+                </div>
+                <div class="step-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Plan Your Meals</h3>
+                        <p>Let our smart algorithm suggest personalized meal plans or create your own from scratch.</p>
+                    </div>
+                </div>
+                <div class="step-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Shop & Cook</h3>
+                        <p>Get organized shopping lists and step-by-step cooking instructions for stress-free meal prep.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Meal Planning?</h2>
+                <p class="cta-subtitle">Join thousands of users who have already simplified their cooking routine</p>
+                <div class="cta-actions">
+                    <button class="btn btn-primary btn-large">Download MealMate</button>
+                    <p class="cta-note">Free to download • Available on iOS and Android</p>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 MealMate. Making meal planning simple and enjoyable.</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="assets/images/icon.png" alt="MealMate" class="footer-logo">
+                <span class="brand-name">MealMate</span>
+            </div>
+            <p class="footer-text">&copy; 2024 MealMate. Making meal planning simple and enjoyable.</p>
+        </div>
     </footer>
 </body>
 </html>
