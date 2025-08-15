@@ -19,7 +19,7 @@
                     <span class="brand-name">MealMate</span>
                 </div>
                 <div class="nav-actions">
-                    <button class="btn btn-outline">Download</button>
+                    <button class="btn btn-outline">Public Release Coming Soon</button>
                 </div>
             </div>
         </nav>
@@ -32,22 +32,8 @@
                     <h1 class="hero-title">Simplify Your <span class="text-gradient">Meal Planning</span></h1>
                     <p class="hero-subtitle">Transform the way you plan, prepare, and enjoy your meals. MealMate makes healthy eating effortless with smart planning tools and personalized recipes.</p>
                     <div class="hero-actions">
-                        <button class="btn btn-primary">Get Started Free</button>
-                        <button class="btn btn-secondary">Watch Demo</button>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat">
-                            <div class="stat-number">10k+</div>
-                            <div class="stat-label">Active Users</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">5k+</div>
-                            <div class="stat-label">Recipes</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">4.8★</div>
-                            <div class="stat-label">App Rating</div>
-                        </div>
+                        <button class="btn btn-primary" onclick="scrollToSection('features')">Public Version Coming Soon</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('how-it-works')">See Tutorial</button>
                     </div>
                 </div>
                 <div class="hero-visual">
@@ -58,7 +44,7 @@
             </div>
         </section>
 
-        <section class="features">
+        <section id="features" class="features">
             <div class="section-header">
                 <h2 class="section-title">Powerful Features</h2>
                 <p class="section-subtitle">Everything you need to master meal planning and healthy eating</p>
@@ -102,41 +88,124 @@
             </div>
         </section>
 
-        <section class="how-it-works">
+        <section id="how-it-works" class="how-it-works">
             <div class="section-header">
                 <h2 class="section-title">How It Works</h2>
-                <p class="section-subtitle">Get started with MealMate in three simple steps</p>
+                <p class="section-subtitle">See MealMate in action with our interactive tutorials</p>
             </div>
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Set Your Preferences</h3>
-                        <p>Tell us about your dietary preferences, cooking skill level, and favorite cuisines.</p>
+            
+            <div class="workflow-sections">
+                <!-- Manage Your Recipes -->
+                <div class="workflow-section">
+                    <h3 class="workflow-title">Manage Your Recipes</h3>
+                    <div class="workflow-content">
+                        <div class="workflow-description">
+                            <p>Organize, discover, and customize recipes tailored to your taste preferences and dietary needs.</p>
+                        </div>
+                        <div class="gif-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide active">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Adding a new recipe to your collection</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Browsing and filtering recipes</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Customizing recipe ingredients</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" onclick="changeSlide('recipes', -1)">‹</button>
+                                <div class="carousel-dots">
+                                    <span class="dot active" onclick="currentSlide('recipes', 1)"></span>
+                                    <span class="dot" onclick="currentSlide('recipes', 2)"></span>
+                                    <span class="dot" onclick="currentSlide('recipes', 3)"></span>
+                                </div>
+                                <button class="carousel-btn next" onclick="changeSlide('recipes', 1)">›</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="step-arrow">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Plan Your Meals</h3>
-                        <p>Let our smart algorithm suggest personalized meal plans or create your own from scratch.</p>
+                
+                <!-- Plan Your Meals -->
+                <div class="workflow-section">
+                    <h3 class="workflow-title">Plan Your Meals</h3>
+                    <div class="workflow-content">
+                        <div class="workflow-description">
+                            <p>Create weekly meal plans with intelligent suggestions based on your schedule and preferences.</p>
+                        </div>
+                        <div class="gif-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide active">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Creating a new weekly meal plan</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Smart meal suggestions in action</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Adjusting meals for the week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" onclick="changeSlide('planning', -1)">‹</button>
+                                <div class="carousel-dots">
+                                    <span class="dot active" onclick="currentSlide('planning', 1)"></span>
+                                    <span class="dot" onclick="currentSlide('planning', 2)"></span>
+                                    <span class="dot" onclick="currentSlide('planning', 3)"></span>
+                                </div>
+                                <button class="carousel-btn next" onclick="changeSlide('planning', 1)">›</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="step-arrow">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Shop & Cook</h3>
-                        <p>Get organized shopping lists and step-by-step cooking instructions for stress-free meal prep.</p>
+                
+                <!-- Simplify Your Shopping -->
+                <div class="workflow-section">
+                    <h3 class="workflow-title">Simplify Your Shopping</h3>
+                    <div class="workflow-content">
+                        <div class="workflow-description">
+                            <p>Auto-generate organized shopping lists from your meal plans with smart ingredient grouping.</p>
+                        </div>
+                        <div class="gif-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide active">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Generating shopping list from meal plan</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Smart ingredient grouping and organization</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="gif-placeholder">
+                                        <p>GIF: Checking off items while shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" onclick="changeSlide('shopping', -1)">‹</button>
+                                <div class="carousel-dots">
+                                    <span class="dot active" onclick="currentSlide('shopping', 1)"></span>
+                                    <span class="dot" onclick="currentSlide('shopping', 2)"></span>
+                                    <span class="dot" onclick="currentSlide('shopping', 3)"></span>
+                                </div>
+                                <button class="carousel-btn next" onclick="changeSlide('shopping', 1)">›</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,10 +214,10 @@
         <section class="cta-section">
             <div class="cta-content">
                 <h2 class="cta-title">Ready to Transform Your Meal Planning?</h2>
-                <p class="cta-subtitle">Join thousands of users who have already simplified their cooking routine</p>
+                <p class="cta-subtitle">MealMate is currently in closed alpha. Public release coming soon!</p>
                 <div class="cta-actions">
-                    <button class="btn btn-primary btn-large">Download MealMate</button>
-                    <p class="cta-note">Free to download • Available on iOS and Android</p>
+                    <button class="btn btn-primary btn-large">Join the Waitlist</button>
+                    <p class="cta-note">Be the first to know when MealMate goes public</p>
                 </div>
             </div>
         </section>
@@ -163,5 +232,68 @@
             <p class="footer-text">&copy; 2024 MealMate. Making meal planning simple and enjoyable.</p>
         </div>
     </footer>
+    <script>
+        // Smooth scrolling function
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        
+        // Carousel functionality
+        const carousels = {
+            recipes: { currentSlide: 1, totalSlides: 3 },
+            planning: { currentSlide: 1, totalSlides: 3 },
+            shopping: { currentSlide: 1, totalSlides: 3 }
+        };
+        
+        function showSlide(carouselType, slideNumber) {
+            const carousel = document.querySelector(`[data-carousel="${carouselType}"]`) || 
+                           document.querySelector('.workflow-section:nth-child(' + 
+                           (carouselType === 'recipes' ? '1' : carouselType === 'planning' ? '2' : '3') + ')');
+            
+            if (carousel) {
+                // Hide all slides
+                const slides = carousel.querySelectorAll('.carousel-slide');
+                const dots = carousel.querySelectorAll('.dot');
+                
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                // Show current slide
+                if (slides[slideNumber - 1] && dots[slideNumber - 1]) {
+                    slides[slideNumber - 1].classList.add('active');
+                    dots[slideNumber - 1].classList.add('active');
+                }
+                
+                carousels[carouselType].currentSlide = slideNumber;
+            }
+        }
+        
+        function changeSlide(carouselType, direction) {
+            const carousel = carousels[carouselType];
+            let newSlide = carousel.currentSlide + direction;
+            
+            if (newSlide > carousel.totalSlides) {
+                newSlide = 1;
+            } else if (newSlide < 1) {
+                newSlide = carousel.totalSlides;
+            }
+            
+            showSlide(carouselType, newSlide);
+        }
+        
+        function currentSlide(carouselType, slideNumber) {
+            showSlide(carouselType, slideNumber);
+        }
+        
+        // Auto-advance carousels every 5 seconds
+        setInterval(() => {
+            Object.keys(carousels).forEach(carouselType => {
+                changeSlide(carouselType, 1);
+            });
+        }, 5000);
+    </script>
 </body>
 </html>
