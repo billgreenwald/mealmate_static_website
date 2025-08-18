@@ -116,19 +116,19 @@
                         <div class="gif-carousel">
                             <div class="carousel-container">
                                 <div class="carousel-slide active">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/cookbook_scroll_and_see_recipe.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div class="carousel-slide">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/cookbook_ocr_recipe.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div class="carousel-slide">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/recipe_link_recipes.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
@@ -168,19 +168,19 @@
                         <div class="gif-carousel">
                             <div class="carousel-container">
                                 <div class="carousel-slide active">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/create_complex_meals.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div class="carousel-slide">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/meal_planner_search_recipes.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div class="carousel-slide">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/meal_planner_move_recipe.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
@@ -220,13 +220,13 @@
                         <div class="gif-carousel">
                             <div class="carousel-container">
                                 <div class="carousel-slide active">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/shopping_list_create_from_meal_plan.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div class="carousel-slide">
-                                    <video autoplay muted loop playsinline loading="lazy" preload="metadata" class="demo-video">
+                                    <video muted playsinline loading="lazy" preload="metadata" class="demo-video">
                                         <source src="assets/movies/mp4s/ingredient_manager.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
@@ -252,16 +252,6 @@
             </div>
         </section>
 
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2 class="cta-title">Ready to Transform Your Meal Planning?</h2>
-                <p class="cta-subtitle">MealMate is currently in closed alpha. Public release coming soon!</p>
-                <div class="cta-actions">
-                    <button class="btn btn-primary btn-large">Join the Waitlist</button>
-                    <p class="cta-note">Be the first to know when MealMate goes public</p>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -270,7 +260,10 @@
                 <img src="assets/images/icon.png" alt="MealMate" class="footer-logo">
                 <span class="brand-name">MealMate</span>
             </div>
-            <p class="footer-text">&copy; 2024 MealMate. Making meal planning simple and enjoyable.</p>
+            <div class="footer-text">
+                <p>&copy; 2024 MealMate. Making meal planning simple and enjoyable.</p>
+                <p class="release-note">Public release coming soon!</p>
+            </div>
         </div>
     </footer>
     <script>
@@ -295,6 +288,13 @@
                            (carouselType === 'recipes' ? '1' : carouselType === 'planning' ? '2' : '3') + ')');
             
             if (carousel) {
+                // Stop all videos first
+                const allVideos = carousel.querySelectorAll('video');
+                allVideos.forEach(video => {
+                    video.pause();
+                    video.currentTime = 0;
+                });
+                
                 // Hide all video slides
                 const slides = carousel.querySelectorAll('.carousel-slide');
                 const dots = carousel.querySelectorAll('.dot');
@@ -310,6 +310,19 @@
                 if (slides[slideNumber - 1] && dots[slideNumber - 1]) {
                     slides[slideNumber - 1].classList.add('active');
                     dots[slideNumber - 1].classList.add('active');
+                    
+                    // Play the active video
+                    const activeVideo = slides[slideNumber - 1].querySelector('video');
+                    if (activeVideo) {
+                        activeVideo.play().catch(e => console.log('Video play failed:', e));
+                        
+                        // Set up auto-advance when video ends
+                        activeVideo.onended = () => {
+                            setTimeout(() => {
+                                changeSlide(carouselType, 1);
+                            }, 1000); // Wait 1 second after video ends
+                        };
+                    }
                 }
                 
                 // Show current description slide
@@ -339,12 +352,13 @@
         }
         
         
-        // Auto-advance carousels every 5 seconds
-        setInterval(() => {
+        // Initialize first videos when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            // Start playing the first video in each carousel
             Object.keys(carousels).forEach(carouselType => {
-                changeSlide(carouselType, 1);
+                showSlide(carouselType, 1);
             });
-        }, 5000);
+        });
     </script>
 </body>
 </html>

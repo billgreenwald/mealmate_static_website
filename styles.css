@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-container {
     position: relative;
     width: 480px;
-    height: 750px;
+    height: 500px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -537,8 +537,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 footer {
     padding: 3rem 2rem;
-    background: #F9FAFB;
-    border-top: 1px solid #E5E7EB;
+    background: linear-gradient(135deg, #059669 0%, #10B981 100%);
+    color: white;
 }
 
 .footer-content {
@@ -555,13 +555,28 @@ footer {
     gap: 0.75rem;
 }
 
+.footer-brand .brand-name {
+    color: white;
+}
+
 .footer-logo {
     width: 32px;
     height: 32px;
 }
 
 .footer-text {
-    color: #6B7280;
+    color: white;
+    text-align: right;
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+.release-note {
+    color: white;
+    font-weight: 600;
+    margin-top: 0.5rem;
 }
 
 /* Responsive design */
