@@ -46,8 +46,8 @@
 
         <section id="features" class="features">
             <div class="section-header">
-                <h2 class="section-title">Powerful Features</h2>
-                <p class="section-subtitle">Everything you need to master meal planning and healthy eating</p>
+                <h2 class="section-title">Manage Your Food Easily</h2>
+                <p class="section-subtitle">Everything you need to make meal planning and shopping quick and simple.</p>
             </div>
             <div class="feature-grid">
                 <div class="feature-card">
@@ -58,8 +58,8 @@
                             </svg>
                         </div>
                     </div>
-                    <h3>Smart Meal Planning</h3>
-                    <p>Plan your meals for the week with intelligent suggestions based on your preferences and dietary needs.</p>
+                    <h3>Meal Planning</h3>
+                    <p>Plan your meals for the week, easily linking together dishes you enjoy serving together.</p>
                 </div>
 
                 <div class="feature-card">
@@ -70,8 +70,8 @@
                             </svg>
                         </div>
                     </div>
-                    <h3>Recipe Discovery</h3>
-                    <p>Discover and organize thousands of recipes tailored to your taste preferences and cooking style.</p>
+                    <h3>Easy Shopping Lists</h3>
+                    <p>Take your meal plan for the week and convert it to a shopping list with one tap.</p>
                 </div>
 
                 <div class="feature-card">
@@ -82,8 +82,8 @@
                             </svg>
                         </div>
                     </div>
-                    <h3>Smart Shopping Lists</h3>
-                    <p>Auto-generate organized shopping lists from your meal plans, with smart ingredient grouping.</p>
+                    <h3>Your Food, Your Way</h3>
+                    <p>You bring the recipes, the meals, and where you like to shop.  We do the boring parts.  Make the app as custom, or as barebones, as you want.</p>
                 </div>
             </div>
         </section>
@@ -102,7 +102,7 @@
                         <div class="workflow-description">
                             <div class="description-slide active">
                                 <h4>Browse Your Recipe Collection</h4>
-                                <p>Easily scroll through your organized recipe collection with beautiful visual previews and quick access to detailed instructions.</p>
+                                <p>Easily scroll through your organized recipe collection with beautiful visual previews and quick access to ingredients and, if you want, instructions.</p>
                             </div>
                             <div class="description-slide">
                                 <h4>Smart Recipe Recognition</h4>
@@ -110,7 +110,7 @@
                             </div>
                             <div class="description-slide">
                                 <h4>Link Related Recipes</h4>
-                                <p>Connect recipes that work well together or create cooking sequences. Build your own culinary workflows and meal combinations.</p>
+                                <p>Connect recipes that work well together.  Link required pairs, or just suggest optional sides or ingredients.</p>
                             </div>
                         </div>
                         <div class="gif-carousel">
@@ -153,16 +153,16 @@
                     <div class="workflow-content">
                         <div class="workflow-description">
                             <div class="description-slide active">
-                                <h4>Build Complex Meal Plans</h4>
-                                <p>Create sophisticated multi-course meals and weekly plans with drag-and-drop simplicity. Perfect for special occasions or everyday dining.</p>
+                                <h4>Build Meal Plans With Ease</h4>
+                                <p>Create multi-part meals and weekly plans with few-tap simplicity. Perfect for special occasions or everyday dining.</p>
                             </div>
                             <div class="description-slide">
                                 <h4>Smart Recipe Search</h4>
-                                <p>Find the perfect recipes for your meal plans with intelligent filtering by cuisine, dietary restrictions, cooking time, and ingredients you have on hand.</p>
+                                <p>Find recipes by name or included ingredients.  One search, multiple functions. To make your life easier.</p>
                             </div>
                             <div class="description-slide">
                                 <h4>Flexible Meal Organization</h4>
-                                <p>Easily move recipes between days, swap meals around, and adjust your weekly plan. Your meal planning adapts to your changing schedule.</p>
+                                <p>Easily move recipes between days, swap meals around, and adjust your weekly plan. Your meal planning adapts to your changing schedule.  You don't even have to have a time in mind when you create the meals. And if you dont make one some day, we will hold onto it for you.</p>
                             </div>
                         </div>
                         <div class="gif-carousel">
@@ -206,15 +206,11 @@
                         <div class="workflow-description">
                             <div class="description-slide active">
                                 <h4>Generate Smart Shopping Lists</h4>
-                                <p>Automatically create organized shopping lists from your meal plans. Ingredients are intelligently grouped by store section for efficient shopping.</p>
+                                <p>Automatically create organized shopping lists from your meal plans. Recipes are aggregated to make shopping easy.  And your list is filterable depending on what store you are at.</p>
                             </div>
                             <div class="description-slide">
                                 <h4>Manage Your Pantry</h4>
-                                <p>Keep track of ingredients you already have at home. Check off items in your pantry to automatically remove them from shopping lists.</p>
-                            </div>
-                            <div class="description-slide">
-                                <h4>More Features Coming Soon</h4>
-                                <p>We're working on additional shopping and pantry management features to make your meal planning even more seamless.</p>
+                                <p>Keep track of ingredients you already have at home. Check off items in your pantry to automatically remove them from shopping lists, and mark what stores you buy them at to make shopping easy. Only if you want to, of course.</p>
                             </div>
                         </div>
                         <div class="gif-carousel">
@@ -231,18 +227,12 @@
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
-                                <div class="carousel-slide">
-                                    <div class="gif-placeholder">
-                                        <p>More shopping features coming soon!</p>
-                                    </div>
-                                </div>
                             </div>
                             <div class="carousel-controls">
                                 <button class="carousel-btn prev" onclick="changeSlide('shopping', -1)">‹</button>
                                 <div class="carousel-dots">
                                     <span class="dot active" onclick="currentSlide('shopping', 1)"></span>
                                     <span class="dot" onclick="currentSlide('shopping', 2)"></span>
-                                    <span class="dot" onclick="currentSlide('shopping', 3)"></span>
                                 </div>
                                 <button class="carousel-btn next" onclick="changeSlide('shopping', 1)">›</button>
                             </div>
@@ -279,7 +269,7 @@
         const carousels = {
             recipes: { currentSlide: 1, totalSlides: 3 },
             planning: { currentSlide: 1, totalSlides: 3 },
-            shopping: { currentSlide: 1, totalSlides: 3 }
+            shopping: { currentSlide: 1, totalSlides: 2 }
         };
         
         function showSlide(carouselType, slideNumber) {
