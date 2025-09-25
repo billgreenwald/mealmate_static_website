@@ -1,1 +1,1 @@
-# mealmate_static_website
+# suitemeal_static_website
