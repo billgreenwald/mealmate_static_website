@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Shopping List Setup Instructions - SuiteMeal</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .instructions-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .instructions-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .instructions-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+
+        .instructions-subtitle {
+            font-size: 1.125rem;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .security-warning {
+            background: #fff3cd;
+            border-left: 4px solid #ff9800;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+
+        .security-warning h3 {
+            color: #856404;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .security-warning p {
+            color: #856404;
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+
+        .privacy-note {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+
+        .privacy-note h3 {
+            color: #0c5460;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .privacy-note p {
+            color: #0c5460;
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+
+        .method-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .method-section h2 {
+            color: #1a1a1a;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .method-section ol {
+            list-style-position: outside;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        .method-section li {
+            margin: 16px 0;
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+
+        .method-section li strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+
+        .method-section code {
+            background: #e9ecef;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #d63384;
+        }
+
+        .token-info {
+            background: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .token-info h4 {
+            color: #1a1a1a;
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .token-info ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        .token-info li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        .step-image {
+            margin: 16px 0;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .step-image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .instructions-title {
+                font-size: 2rem;
+            }
+
+            .method-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <a href="index.html" style="display: flex; align-items: center; text-decoration: none;">
+                        <img src="assets/images/icon.png" alt="SuiteMeal" class="nav-logo">
+                        <span class="brand-name">SuiteMeal</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="instructions-container">
+            <div class="instructions-header">
+                <h1 class="instructions-title">Google Shopping List Setup</h1>
+                <p class="instructions-subtitle">Follow these steps to connect your Google Shopping List to SuiteMeal</p>
+            </div>
+
+            <div class="security-warning">
+                <h3>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 9V11M12 15H12.01M5.07183 19H18.9282C20.4678 19 21.4301 17.3333 20.6603 16L13.7321 4C12.9623 2.66667 11.0377 2.66667 10.2679 4L3.33974 16C2.56995 17.3333 3.53223 19 5.07183 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Important Security Information
+                </h3>
+                <p><strong>The Google Master Token is equivalent to your Google account password.</strong> It provides full access to your Google account. Guard it carefully and never share it with anyone.</p>
+                <p>Only enter your Master Token in applications you completely trust. Treat it with the same level of security as your Google password.</p>
+            </div>
+
+            <div class="privacy-note">
+                <h3>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 15V12M12 9H12.01M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Your Privacy Matters
+                </h3>
+                <p><strong>SuiteMeal does not store your Google Master Token on any server.</strong> Your token is stored only on your device and is used exclusively to sync with your Google Shopping List.</p>
+                <p>The token never leaves your device except to authenticate directly with Google's services.</p>
+            </div>
+
+            <div class="method-section">
+                <h2>Method 1: Using Browser Security Settings</h2>
+                <ol>
+                    <li>
+                        <strong>Login:</strong> Navigate to <a href="https://accounts.google.com/EmbeddedSetup" target="_blank" rel="noopener noreferrer">https://accounts.google.com/EmbeddedSetup</a>, sign in with your Google account, and accept the terms
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/step1-to-receive-auth-token.png" alt="Login to Google" class="step-image">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Access Security:</strong> Find and click the lock icon (or site information icon) in your browser's address bar
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/way1-step2-to-receive-auth-token.png" alt="Click lock icon" class="step-image">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Open Cookies:</strong> Select the "Cookies" or "Site Settings" section from the security menu
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/way1-step3-to-receive-auth-token.png" alt="Open cookies section" class="step-image">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Expand Domain:</strong> Look for and expand the <code>accounts.google.com</code> dropdown
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/way1-step4-to-receive-auth-token.png" alt="Expand domain" class="step-image">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Copy Token:</strong> Locate the cookie named <code>oauth_token</code> and copy its value from the Content field
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/way1-step5-to-receive-auth-token.png" alt="Copy oauth_token" class="step-image">
+                        </div>
+                    </li>
+                    <li><strong>Use in App:</strong> Paste this token into SuiteMeal when prompted for your Google Shopping List credentials</li>
+                </ol>
+            </div>
+
+            <div class="method-section">
+                <h2>Method 2: Using Browser Developer Tools</h2>
+                <ol>
+                    <li>
+                        <strong>Login:</strong> Navigate to <a href="https://accounts.google.com/EmbeddedSetup" target="_blank" rel="noopener noreferrer">https://accounts.google.com/EmbeddedSetup</a>, sign in with your Google account, and accept the terms
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/step1-to-receive-auth-token.png" alt="Login to Google" class="step-image">
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Open Developer Tools:</strong> Press F12 (Windows/Linux) or Cmd+Option+I (Mac) to launch Developer Tools
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/way2-step2-to-receive-auth-token.png" alt="Open developer tools" class="step-image">
+                        </div>
+                    </li>
+                    <li><strong>Navigate to Storage:</strong> Click on the "Application" tab (Chrome/Edge) or "Storage" tab (Firefox)</li>
+                    <li>
+                        <strong>Find Cookies:</strong> In the left sidebar, expand the "Cookies" dropdown menu, then click on <code>https://accounts.google.com</code>, find the <code>oauth_token</code> cookie in the list, and copy its value
+                        <div class="step-image-container">
+                            <img src="https://github.com/rukins/gpsoauth-java/raw/b74ebca999d0f5bd38a2eafe3c0d50be552f6385/doc/images/way2-step4-to-receive-auth-token.png" alt="Find and copy oauth_token" class="step-image">
+                        </div>
+                    </li>
+                    <li><strong>Use in App:</strong> Paste this token into SuiteMeal when prompted for your Google Shopping List credentials</li>
+                </ol>
+            </div>
+
+            <div class="token-info">
+                <h4>What Happens Next</h4>
+                <p>The <code>oauth_token</code> cookie you copy will be an Authentication Token (format: <code>oauth2_4/...</code>). Simply paste this token into SuiteMeal, and the app will automatically convert it to a Master Token for ongoing access to your Google Shopping List.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="assets/images/icon.png" alt="SuiteMeal" class="footer-logo">
+                <span class="brand-name">SuiteMeal</span>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 SuiteMeal. Making meal planning simple and enjoyable.</p>
+                <p class="release-note">Public release coming soon!</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
