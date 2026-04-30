@@ -5,6 +5,7 @@
     font-weight: 800;
     color: #111827;
     white-space: nowrap;
+    margin-bottom: -0.15em;
 }
 
 /* Store badges */
@@ -180,9 +181,10 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 800;
-    line-height: 0.6;
+    line-height: 1.0;
     margin-bottom: 1.5rem;
 }
+
 
 .section-title {
     font-size: clamp(2rem, 4vw, 3rem);
