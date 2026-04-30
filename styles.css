@@ -45,20 +45,61 @@
     flex-wrap: wrap;
 }
 
-.ios-coming-soon {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #6B7280;
-    letter-spacing: 0.02em;
-}
 
 /* No subscriptions badge */
 .no-sub-badge {
     display: block;
     color: #059669;
-    font-size: 1.375rem;
+    font-size: 2.75rem;
     font-weight: 800;
+    line-height: 1.1;
     margin-bottom: 2rem;
+}
+
+/* iOS Coming Soon badge */
+.ios-badge-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.ios-badge-mock {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #9CA3AF;
+    color: white;
+    border-radius: 10px;
+    padding: 0 14px;
+    height: 64px;
+    cursor: default;
+    margin-left: -4px;
+}
+
+.ios-badge-text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.ios-badge-small {
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+}
+
+.ios-badge-large {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.ios-coming-soon-label {
+    font-size: 0.72rem;
+    color: #9CA3AF;
+    font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 /* SuiteMeal Pro section */
@@ -753,6 +794,10 @@ footer {
     .store-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .no-sub-badge {
+        font-size: 2rem;
     }
 
     .hero-tagline {
