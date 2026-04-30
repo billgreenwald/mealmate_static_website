@@ -1,3 +1,100 @@
+/* Store buttons */
+.store-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.store-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.btn-store-disabled {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #E5E7EB;
+    color: #9CA3AF;
+    cursor: default;
+    pointer-events: none;
+    border: none;
+}
+
+.store-coming-soon {
+    font-size: 0.75rem;
+    color: #9CA3AF;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* No subscriptions badge */
+.no-sub-badge {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    border: 1.5px solid #059669;
+    border-radius: 2rem;
+    color: #059669;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1.75rem;
+}
+
+/* SuiteMeal Pro section */
+.pro-section {
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #059669 0%, #10B981 100%);
+    text-align: center;
+}
+
+.pro-content {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.pro-content h2 {
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    color: white;
+    margin-bottom: 1.25rem;
+}
+
+.pro-content p {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.pro-cta {
+    background: white;
+    color: #059669;
+    font-weight: 700;
+}
+
+.pro-cta:hover {
+    background: #F0FDF4;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer links */
+.footer-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
 /* Reset and base styles */
 * {
     margin: 0;
@@ -643,8 +740,24 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
+
+    .store-buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .store-button-wrapper {
+        width: 100%;
+        max-width: 280px;
+    }
+
     .btn {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .btn-store-disabled {
         width: 100%;
         max-width: 280px;
     }
