@@ -21,16 +21,41 @@
     margin-left: -12px; /* offset Google's built-in badge padding */
 }
 
-.store-badge-nav {
-    height: 64px;
+.apple-badge {
+    height: 60px;
     width: auto;
     display: block;
-    margin-left: -8px;
+}
+
+.store-badge-nav {
+    height: 48px;
+    width: auto;
+    display: block;
+    margin-left: -6px;
+}
+
+.apple-badge-nav {
+    height: 48px;
+    width: auto;
+    display: block;
 }
 
 .nav-badge-link {
     display: inline-block;
     line-height: 0;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.download-stat {
+    font-size: 0.875rem;
+    color: #6B7280;
+    font-weight: 500;
+    margin-top: 0.25rem;
 }
 
 /* Inverted badge on dark background — Google badge is dark, needs a light variant treatment */
@@ -128,6 +153,15 @@
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.7;
     margin-bottom: 2rem;
+}
+
+.pro-store-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pro-cta {
